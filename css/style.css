@@ -1305,7 +1305,7 @@ figure.dotted-bg:before {
   width: 500px;
   height: 400px;
   background-size: cover;
-  background-image: url("../images/dotted_light.png");
+  background-image: url("");
   background-repeat: no-repeat;
 }
 
