@@ -1296,7 +1296,7 @@ figure.dotted-bg {
   position: relative;
 }
 
-figure.dotted-bg:before {
+/* figure.dotted-bg:before {
   z-index: -1;
   content: "";
   position: absolute;
@@ -1305,9 +1305,9 @@ figure.dotted-bg:before {
   width: 500px;
   height: 400px;
   background-size: cover;
-  background-image: url("");
+  background-image: url(/images/dotted_light.png);
   background-repeat: no-repeat;
-}
+} */
 
 @media (max-width: 991.98px) {
   figure.dotted-bg:before {
@@ -2482,7 +2482,7 @@ span.error {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(images/djongler.JPG);
+  background-image: url(images/dotted_light.png);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: visible;
