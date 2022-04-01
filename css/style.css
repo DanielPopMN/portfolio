@@ -2482,18 +2482,19 @@ span.error {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/dotted_dark.png);
-  background-repeat: repeat;
-  background-size: contain;
+  background-image: url(/images/farina.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: visible;
-  background-position-x: initial;
+  /* background-position-x: initial;
   background-position-y: initial;
   background-size: initial;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: initial
+  background-color: initial */
 }
+
 
 .PortfolioW {
   height: 650px;
