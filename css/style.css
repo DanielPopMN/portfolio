@@ -1150,6 +1150,9 @@ a:hover {
 
 }
 
+
+
+
 .portfolio-item:hover .overlay,
 .blog-item:hover .overlay {
   opacity: 1;
@@ -1164,6 +1167,13 @@ a:hover {
 .blog-item .overlay {
   opacity: 0;
   visibility: visible;
+}
+
+@media (max-width: 991.98px) {
+  .blog-item .overlay {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .blog-item:hover .overlay {
