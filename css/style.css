@@ -839,7 +839,7 @@ a:hover {
   right: 0;
   bottom: 0;
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .cover-v1.overlay .mbYTP_wrapper {
@@ -1911,15 +1911,19 @@ figure.dotted-bg {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: rgba(255, 255, 255, 0.5);
+
+
 }
 
 .detail-v1 .detail-val {
   font-size: 16px;
   color: #fff;
+
 }
 
 .detail-v1 .detail-val a {
   color: #fff;
+
 }
 
 .unslate_co--footer {
@@ -2516,7 +2520,7 @@ span.error {
 }
 
 .PortfolioW {
-  height: 650px;
+  height: 500px;
   background-repeat: no-repeat;
 
 }
@@ -2533,3 +2537,56 @@ span.error {
   padding: 20px;
 
 }
+
+
+
+/* ova e od sugarwish */
+
+
+
+
+
+.casestudybutton {
+  border: 2px solid #e2b584 !important;
+  margin: 10px;
+  color: #000 !important;
+
+}
+
+.mocupsugarwish {
+  text-align: center;
+}
+
+.casestudybutton:hover {
+  border: 2px solid black !important;
+}
+
+.sugarwishbuttobs {
+
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mocupsugarwish {
+  padding: 60px;
+  background: white;
+}
+
+.detali-div {
+  text-align: center;
+}
+
+.heddingSunmmary {
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.caseStudysection {
+
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+/* ova e od sugarwish */
