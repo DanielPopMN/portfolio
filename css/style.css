@@ -2551,6 +2551,7 @@ span.error {
   margin: 10px;
   color: #000 !important;
 
+
 }
 
 .mocupsugarwish {
@@ -2581,12 +2582,31 @@ span.error {
   margin-bottom: 30px;
 }
 
+.casestudy {
+  z-index: 999999999999;
+  margin-top: 0px;
+}
+
 .caseStudysection {
 
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
+
 }
+
+.mocupsstudentsko {
+  padding: 60px;
+
+}
+
+.btnst {
+  z-index: 99999999;
+  display: inline;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
 
 
 /* ova e od sugarwish */
