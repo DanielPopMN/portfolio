@@ -2611,9 +2611,9 @@ span.error {
 
 
 /* ova e od sugarwish */
-@media (min-width: 991.98px) {
+@media (max-width: 991.98px) {
   .ProfileImage {
-    background-image: url(/images/portfPic1-1.jpg)
+    background-image: none !important;
   }
 
 }
