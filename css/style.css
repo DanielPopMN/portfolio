@@ -2601,11 +2601,12 @@ span.error {
 }
 
 .btnst {
-  z-index: 99999999;
-  display: inline;
-  margin: 0 auto;
+
+
+
   margin-bottom: 90px;
   margin-top: 30px;
+
 }
 
 
