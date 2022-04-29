@@ -2576,6 +2576,7 @@ span.error {
 
 .detali-div {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .heddingSunmmary {
@@ -2640,4 +2641,8 @@ span.error {
     background-image: none !important;
   }
 
+}
+
+.iframeVideo {
+  margin: 0 auto;
 }
