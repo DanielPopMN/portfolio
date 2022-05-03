@@ -799,7 +799,7 @@ a:hover {
 }
 
 .cover-v1 {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: repeat;
   width: 100%;
@@ -2499,9 +2499,10 @@ span.error {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://i.ibb.co/54dcjwx/dotted-light.png);
+  background-image: url(https://i.ibb.co/ns0gvLP/UX-Design.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   overflow: visible;
 }
 
@@ -2632,6 +2633,15 @@ span.error {
 .sugarwishBt2:hover {
   border: 2px solid #000000 !important;
 }
+
+.Fred {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 40px;
+  text-align: left;
+}
+
+
 
 
 
