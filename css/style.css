@@ -2459,8 +2459,10 @@ span.error {
 }
 
 .textaboutme {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 50px 0px;
+
 }
 
 .sitelogo {
@@ -2491,6 +2493,7 @@ span.error {
 .aboutmetext {
   padding-right: 30px;
   padding-left: 30px;
+
 
 }
 
@@ -2641,6 +2644,11 @@ span.error {
   text-align: left;
 }
 
+.heroscills {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
 
 
 
@@ -2655,4 +2663,10 @@ span.error {
 
 .iframeVideo {
   margin: 0 auto;
+}
+
+mark {
+  background-color: #eeeeee;
+  padding: 2px;
+
 }
