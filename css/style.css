@@ -2405,7 +2405,7 @@ span.error {
 }
 
 #button:hover {
-  border: 2px solid white;
+
   cursor: pointer;
 
 }
@@ -2501,7 +2501,7 @@ span.error {
 
 
 .aboutmeleft {
-  background-image: url(https://i.ibb.co/vwykvjB/Group-13904.png);
+  background-image: url(https://i.ibb.co/LdX3VTP/me.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
