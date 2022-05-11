@@ -2511,6 +2511,7 @@ span.error {
   display: flex;
   justify-content: center;
   align-items: end;
+  bottom: 30px;
 
 
 }
@@ -2558,6 +2559,15 @@ span.error {
   text-align: center;
   padding: 20px;
 
+  top: 35px;
+
+
+}
+
+@media (max-width: 991.98px) {
+  .ServicesText {
+    top: 0px !important;
+  }
 }
 
 
