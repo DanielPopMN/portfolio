@@ -2667,9 +2667,12 @@ span.error {
   margin-bottom: 50px;
 }
 
+
+
 @media (max-width: 1200px) {
-  .mipic {
+  .mypic {
     margin-top: 80px;
+
   }
 
   .mouse-wrap {
