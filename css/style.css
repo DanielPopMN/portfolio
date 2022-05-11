@@ -2668,18 +2668,14 @@ span.error {
 }
 
 
-/* 
-@media (max-width: 1200px) {
-  .mipic {
-    margin-top: 80px;
-    width: 60px;
 
-  }
+@media (max-width: 1200px) {
+
 
   .mouse-wrap {
     display: none;
   }
-} */
+}
 
 .ProfileImage {
   background-repeat: no-repeat;
@@ -2700,7 +2696,7 @@ mark {
 
 }
 
-.herotext {}
+
 
 /* @media (max-width: 1200px) {
   .mipic {
