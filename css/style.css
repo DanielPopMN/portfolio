@@ -2369,8 +2369,8 @@ span.error {
 }
 
 .DP {
-  font-size: 50px;
-  font-weight: 800;
+  font-size: 42px;
+  font-weight: 700;
 
 }
 
@@ -2414,6 +2414,7 @@ span.error {
   opacity: 1;
   visibility: visible;
 }
+
 
 /* Styles for the content section */
 
@@ -2497,32 +2498,47 @@ span.error {
 
 }
 
+
+
 .aboutmeleft {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(https://i.ibb.co/ns0gvLP/UX-Design.png);
+  background-image: url(/images/Group\ 13904.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   overflow: visible;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+
 }
+
 
 .Winners {
   margin-bottom: 0px !important;
-
+  font-weight: 500;
+  color: #cecece;
 }
 
 @media (max-width: 991.98px) {
   .aboutmeleft {
     margin-bottom: 60px !important;
-    background-size: cover;
+    background-size: contain;
     padding: 50px;
+    height: 500px;
 
   }
 
 
+}
+
+@media (max-width: 991.98px) {
+  .Winners {
+    margin-bottom: -30px !important;
+
+  }
 }
 
 .PortfolioW {
@@ -2651,16 +2667,29 @@ span.error {
   margin-bottom: 50px;
 }
 
+@media (max-width: 1200px) {
+  .mipic {
+    margin-top: 80px;
+  }
 
+  .mouse-wrap {
+    display: none;
+  }
+}
+
+.ProfileImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 /* ova e od sugarwish */
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) {
   .ProfileImage {
     background-image: none !important;
   }
 
-}
+} */
 
 .iframeVideo {
   margin: 0 auto;
@@ -2669,5 +2698,30 @@ span.error {
 mark {
   background-color: #eeeeee;
   padding: 2px;
+
+}
+
+.herotext {}
+
+/* @media (max-width: 1200px) {
+  .mipic {
+    margin-bottom: 0px;
+    width: 100px;
+  }
+} */
+
+
+
+.collumsSumary {
+  column-count: 2;
+  column-gap: 50px;
+  text-align: left;
+}
+
+@media (max-width: 991.98px) {
+  .collumsSumary {
+    column-count: 1;
+
+  }
 
 }
