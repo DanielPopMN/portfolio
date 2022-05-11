@@ -2501,7 +2501,7 @@ span.error {
 
 
 .aboutmeleft {
-  background-image: url(/images/Group\ 13904.png);
+  background-image: url(https://i.ibb.co/vwykvjB/Group-13904.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2668,17 +2668,18 @@ span.error {
 }
 
 
-
+/* 
 @media (max-width: 1200px) {
-  .mypic {
+  .mipic {
     margin-top: 80px;
+    width: 60px;
 
   }
 
   .mouse-wrap {
     display: none;
   }
-}
+} */
 
 .ProfileImage {
   background-repeat: no-repeat;
@@ -2687,12 +2688,7 @@ span.error {
 
 
 /* ova e od sugarwish */
-/* @media (max-width: 991.98px) {
-  .ProfileImage {
-    background-image: none !important;
-  }
 
-} */
 
 .iframeVideo {
   margin: 0 auto;
