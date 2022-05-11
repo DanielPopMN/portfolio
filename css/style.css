@@ -1108,7 +1108,7 @@ a:hover {
 
 .portfolio-item .overlay:before,
 .blog-item .overlay:before {
-  background: rgba(56, 50, 50, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   content: "";
 }
 
@@ -2523,6 +2523,8 @@ span.error {
   color: #cecece;
 }
 
+
+
 @media (max-width: 991.98px) {
   .aboutmeleft {
     margin-bottom: 60px !important;
@@ -2570,6 +2572,15 @@ span.error {
   }
 }
 
+/* .ov1 {
+  color: black;
+  font-size: 50px;
+  width: 200px;
+  z-index: 99999999;
+  display: flex;
+  justify-content: center;
+  visibility: visible;
+} */
 
 
 /* ova e od sugarwish */
