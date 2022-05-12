@@ -116,8 +116,9 @@ a:hover {
 }
 
 .btn.btn-outline-pill.btn-custom-light {
-  color: #fff;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
+
+  border: 2px solid #bababa;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
@@ -1149,7 +1150,6 @@ a:hover {
   color: rgb(214, 214, 214);
 
 }
-
 
 
 
@@ -2712,7 +2712,7 @@ span.error {
 }
 
 mark {
-  background-color: #eeeeee;
+  background-color: #ffe8e8;
   padding: 2px;
 
 }
