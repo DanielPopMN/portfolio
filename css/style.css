@@ -2567,8 +2567,9 @@ span.error {
 }
 
 @media (max-width: 991.98px) {
-  .ServicesText {
+  .ImgIdo {
     top: 0px !important;
+    width: 80%;
   }
 }
 
