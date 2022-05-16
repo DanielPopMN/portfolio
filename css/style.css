@@ -1153,6 +1153,15 @@ a:hover {
 
 }
 
+.blog-item:hover .overlay2 {
+  opacity: 1;
+}
+
+
+.blog-item .overlay2 {
+  opacity: 0;
+  /* visibility: inherit; */
+}
 
 
 .portfolio-item:hover .overlay,
@@ -1160,6 +1169,10 @@ a:hover {
   opacity: 1;
   visibility: visible;
 
+}
+
+.Overlay2h3 {
+  color: black !important;
 }
 
 .VideoBak {
