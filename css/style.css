@@ -98,7 +98,7 @@ a:hover {
 
 .btn {
   font-size: 11px;
-  border-radius: 30px;
+  border-radius: 5px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 30px;
@@ -2399,6 +2399,7 @@ span.error {
 
 .BtonHero1 {
   border: 2px solid #e2b584 !important;
+  /* background-color: #e2b584; */
   margin: 10px;
 
 }
@@ -2425,10 +2426,17 @@ span.error {
 }
 
 .DP {
-  font-size: 42px;
-  font-weight: 700;
+  font-size: 60px;
+  font-weight: 500;
 
 }
+
+@media (max-width: 991.98px) {
+  .DP {
+    font-size: 45px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -2798,4 +2806,38 @@ mark {
 
   }
 
+}
+
+
+.PortfolioPic {
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  overflow: visible;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 60px 0px 60px 0px;
+
+
+
+}
+
+.PortfolioText {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px 60px 0px;
+
+
+
+
+}
+
+.NaslovPortfolio {
+  margin-top: 50px;
 }
