@@ -106,6 +106,8 @@ a:hover {
   letter-spacing: .1rem;
   text-transform: uppercase;
   font-weight: 900;
+
+
 }
 
 .btn:active,
@@ -2398,9 +2400,16 @@ span.error {
 }
 
 .BtonHero1 {
-  border: 2px solid #e2b584 !important;
+  /* border: 2px solid #e2b584 !important; */
   /* background-color: #e2b584; */
   margin: 10px;
+  background: #FB8122;
+  backdrop-filter: blur(2px) !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  border-right-color: rgba(255, 255, 255, 0.1) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+
+
 
 }
 
