@@ -2852,3 +2852,14 @@ mark {
 .NaslovPortfolio {
   margin-top: 50px;
 }
+
+.Prototypebutton {
+  color: rgb(255, 255, 255) !important;
+  border: 2px solid #e2b584 !important;
+  margin: 10px;
+
+}
+
+.Prototypebutton:hover {
+  border: 2px solid #ffffff !important;
+}
