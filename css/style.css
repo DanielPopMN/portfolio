@@ -1323,6 +1323,7 @@ a:hover {
 
 .unslate_co--section {
   padding: 3.5rem 0;
+
 }
 
 @media (max-width: 767.98px) {
@@ -2323,7 +2324,7 @@ span.error {
 }
 
 .gsap-reveal-hero .reveal-wrap .reveal-content {
-  line-height: 1.5;
+  line-height: 1.1;
   z-index: 1;
   display: inline-block;
   -webkit-transform: translateX(-100%);
@@ -2430,7 +2431,7 @@ span.error {
 }
 
 .samoTekst {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 300;
 }
 
@@ -2438,11 +2439,16 @@ span.error {
   font-size: 60px;
   font-weight: 500;
 
+
 }
 
 @media (max-width: 991.98px) {
   .DP {
     font-size: 45px;
+  }
+
+  .samoTekst {
+    font-size: 35px;
   }
 }
 
@@ -2787,7 +2793,7 @@ span.error {
 }
 
 mark {
-  background-color: #fcecd5;
+  background-color: #fff1e6;
   padding: 2px;
 
 
@@ -2862,4 +2868,18 @@ mark {
 
 .Prototypebutton:hover {
   border: 2px solid #ffffff !important;
+}
+
+.ux-ui {
+  font-weight: 500;
+  display: block;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 13px;
+
+}
+
+.OtherSkills {
+  font-weight: 300;
+
 }
