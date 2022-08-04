@@ -2890,3 +2890,7 @@ mark {
   width: 100%;
   margin-bottom: 60px;
 }
+
+.diploma:hover {
+  opacity: 80%;
+}
