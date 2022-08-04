@@ -2573,6 +2573,7 @@ span.error {
 .aboutmetext {
   padding-right: 30px;
   padding-left: 30px;
+  margin-bottom: 60px;
 
 
 }
@@ -2882,4 +2883,10 @@ mark {
 .OtherSkills {
   font-weight: 300;
 
+}
+
+
+.diploma {
+  width: 100%;
+  margin-bottom: 60px;
 }
