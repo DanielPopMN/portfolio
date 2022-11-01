@@ -1583,9 +1583,12 @@ figure.dotted-bg {
   line-height: 40px;
   position: relative;
   z-index: 1;
-  -webkit-box-shadow: 0px 30px 0 -20px #E2B584;
-  box-shadow: 0px 30px 0 -20px #E2B584;
+  -webkit-box-shadow: 30px 30px 30 -25px #9733EE;
+  box-shadow: 0px 30px 0px -25px #9733EE;
 }
+
+
+
 
 @media (max-width: 991.98px) {
   .testimonial-v1 .testimonial-inner-bg {
@@ -2317,9 +2320,12 @@ span.error {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #e2b584;
+  /* background: #212529; */
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
   margin-left: -100%;
   z-index: 2;
+
+
 
 }
 
@@ -2347,7 +2353,7 @@ span.error {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #e2b584;
+  background: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
   margin-left: -100%;
   z-index: 9;
 }
@@ -2403,24 +2409,41 @@ span.error {
 .BtonHero1 {
   /* border: 2px solid #e2b584 !important; */
   /* background-color: #e2b584; */
-  margin: 10px;
+  /* margin: 10px;
   background: #FB8122;
   backdrop-filter: blur(2px) !important;
   border: 2px solid rgba(255, 255, 255, 0.2) !important;
   border-right-color: rgba(255, 255, 255, 0.1) !important;
-  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important; */
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 5px;
+  /* display: block; */
 
 
 
 }
 
 .BtonHero1:hover {
-  border: 2px solid #ffffff !important;
+  /* border: 2px solid #ffffff !important; */
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 .BtonHero2 {
   margin: 10px;
   cursor: pointer !important;
+  box-shadow: 0 0 10px #eee;
+  padding: 15px 45px;
 }
 
 .AnimatedText {
@@ -2527,7 +2550,11 @@ span.error {
 .BtonHero3 {
   margin-top: 10px;
   cursor: pointer;
-  padding: 10px 100px;
+  padding: 15px 45px;
+  margin: 10px;
+
+  box-shadow: 0 0 10px #eee;
+
 
 }
 
@@ -2783,6 +2810,7 @@ span.error {
 .ProfileImage {
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 
@@ -2864,6 +2892,8 @@ mark {
   color: rgb(255, 255, 255) !important;
   border: 2px solid #e2b584 !important;
   margin: 10px;
+  padding: 15px 45px;
+  box-shadow: 0 0 10px #eee;
 
 }
 
@@ -2893,4 +2923,40 @@ mark {
 
 .diploma:hover {
   opacity: 80%;
+}
+
+.myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.5;
+}
+
+/* .btn-grad {
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  
+  color: #fff;
+  text-decoration: none;
+} */
+
+.BtnsHero {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
 }
