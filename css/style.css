@@ -2763,9 +2763,16 @@ span.error {
 }
 
 .sugarwishBt1 {
-  color: #000 !important;
-  border: 2px solid #e2b584 !important;
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
   margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 10px #eee;
+  border-radius: 5px;
 
 }
 
@@ -2774,14 +2781,29 @@ span.error {
   border: 2px solid #8d8d8d !important;
   margin: 10px;
 
+  padding: 15px 45px;
+
+  background-position: right center;
+
+
+  text-decoration: none;
+
+
 }
 
 .sugarwishBt1:hover {
-  border: 2px solid #000000 !important;
+  border: 2px solid #8d8d8d !important;
+
+  background-position: right center;
+
+
+  text-decoration: none;
+
 }
 
 .sugarwishBt2:hover {
   border: 2px solid #000000 !important;
+
 }
 
 .Fred {
@@ -2889,16 +2911,30 @@ mark {
 }
 
 .Prototypebutton {
-  color: rgb(255, 255, 255) !important;
-  border: 2px solid #e2b584 !important;
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
   margin: 10px;
   padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
   box-shadow: 0 0 10px #eee;
+  border-radius: 5px;
 
 }
 
+
 .Prototypebutton:hover {
   border: 2px solid #ffffff !important;
+
+  background-position: right center;
+
+  color: #fff;
+  text-decoration: none;
+
+
+
 }
 
 .ux-ui {
