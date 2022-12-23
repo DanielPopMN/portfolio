@@ -2416,8 +2416,7 @@ span.error {
   border-right-color: rgba(255, 255, 255, 0.1) !important;
   border-bottom-color: rgba(255, 255, 255, 0.1) !important; */
   background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
-  margin: 10px 10px 20px 10px;
-
+  margin: 10px;
   padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
@@ -2441,7 +2440,7 @@ span.error {
 }
 
 .BtonHero2 {
-  margin: 10px 10px 20px 10px;
+  margin: 10px;
   cursor: pointer !important;
   box-shadow: 0 0 10px #eee;
   padding: 15px 45px;
