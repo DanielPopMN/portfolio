@@ -2551,7 +2551,7 @@ span.error {
   margin-top: 10px;
   cursor: pointer;
   padding: 15px 45px;
-  margin: 10px;
+  /* margin: 10px; */
 
   box-shadow: 0 0 10px #eee;
 
@@ -2563,6 +2563,26 @@ span.error {
   display: inline-block;
 
 
+}
+
+@media (max-width: 991.98px) {
+  .footerbutton {
+
+    display: block;
+
+
+  }
+}
+
+
+
+@media (max-width: 991.98px) {
+  .btnst {
+
+    width: 100%;
+
+
+  }
 }
 
 .textaboutme {
@@ -2913,6 +2933,7 @@ mark {
 .Prototypebutton {
   background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
   margin: 10px;
+
   padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
@@ -2922,6 +2943,13 @@ mark {
   box-shadow: 0 0 10px #eee;
   border-radius: 5px;
 
+}
+
+@media (max-width: 991.98px) {
+  .Prototypebutton {
+    display: block;
+
+  }
 }
 
 
@@ -2995,4 +3023,22 @@ mark {
   position: relative;
   display: inline-block;
   overflow: hidden;
+}
+
+@media (max-width: 991.98px) {
+  .btn {
+
+
+    display: block;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  .BtnsHero {
+
+
+    display: block;
+  }
+
 }
