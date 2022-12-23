@@ -2561,6 +2561,7 @@ span.error {
 .footerbutton {
 
   display: inline-block;
+  margin-bottom: 30px;
 
 
 }
@@ -3041,4 +3042,8 @@ mark {
     display: block;
   }
 
+}
+
+.buttonCV {
+  margin: 0px;
 }
