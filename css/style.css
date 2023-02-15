@@ -2688,16 +2688,27 @@ span.error {
   font-weight: 600;
   line-height: 45px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 
-  top: 35px;
+  top: 45px !important;
+
 
 
 }
 
 @media (max-width: 991.98px) {
-  .ImgIdo {
+  .ServicesText {
     top: 0px !important;
+
+
+  }
+}
+
+
+
+@media (max-width: 991.98px) {
+  .ImgIdo {
+
     width: 80%;
   }
 }
